@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -84,11 +85,27 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'spin-reel': {
+					'0%': { transform: 'translateY(0px)' },
+					'100%': { transform: 'translateY(-600px)' }
+				},
+				'neon-glow': {
+					'0%, 100%': { 
+						textShadow: '0 0 5px currentColor, 0 0 10px currentColor, 0 0 15px currentColor',
+						boxShadow: '0 0 5px currentColor, 0 0 10px currentColor'
+					},
+					'50%': { 
+						textShadow: '0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor',
+						boxShadow: '0 0 10px currentColor, 0 0 20px currentColor'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'spin-reel': 'spin-reel 2s ease-out',
+				'neon-glow': 'neon-glow 2s ease-in-out infinite'
 			}
 		}
 	},

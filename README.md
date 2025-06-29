@@ -1,73 +1,142 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🎰 Neon Slots - Nowoczesna Gra Slotowa
 
-**URL**: https://lovable.dev/projects/44f639fb-fdcb-4d95-9b8c-46562d9d07f5
+Najlepsza gra slotowa z neonowymi efektami, animacjami i realistycznym systemem gry!
 
-## How can I edit this code?
+## ✨ Funkcjonalności
 
-There are several ways of editing your application.
+- **5 bębnów** z różnorodnymi symbolami (owoce, dzwonki, cyfry, diamenty)
+- **Realistyczny system losowania** z prawdopodobieństwami jak w prawdziwym kasynie
+- **Piękne animacje** obrotów bębnów z efektami neonowymi
+- **System punktów** z saldem gracza i możliwością stawiania zakładów
+- **Linie wygrywające** - poziome i przekątne kombinacje
+- **Efekty wizualne** - konfetti, animacje wygranej, pulsujące elementy
+- **Dźwięki gry** - efekty kręcenia i wygranej (można wyłączyć)
+- **Responsywny design** - działa na wszystkich urządzeniach
+- **Tryb demo** - graj bez ryzyka z wirtualnymi punktami
 
-**Use Lovable**
+## 🎮 Zasady Gry
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/44f639fb-fdcb-4d95-9b8c-46562d9d07f5) and start prompting.
+- **Cel**: Zbierz 3 lub więcej identycznych symboli w linii
+- **Linie wygrywające**: 3 poziome + 2 przekątne = 5 linii
+- **Mnożniki wygranej**:
+  - 3 symbole = x2 stawki
+  - 4 symbole = x3 stawki  
+  - 5 symboli = x5 stawki
+- **Symbole** (od najczęstszych do najrzadszych):
+  - 🍒 Wiśnie (10 pkt)
+  - 🍋 Cytryny (15 pkt)
+  - 🍊 Pomarańcze (20 pkt)
+  - 🍇 Winogrona (25 pkt)
+  - 🍉 Arbuzy (30 pkt)
+  - 🔔 Dzwonki (50 pkt)
+  - ⭐ Gwiazdy (75 pkt)
+  - 💎 Diamenty (100 pkt)
+  - 7️⃣ Szczęśliwa Siódemka (200 pkt)
+  - 💰 Jackpot (500 pkt)
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Jak uruchomić grę
 
-**Use your preferred IDE**
+### Wymagania
+- Node.js (wersja 16 lub nowsza)
+- npm lub yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Instalacja i uruchomienie
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Sklonuj repozytorium**:
+```bash
+git clone <URL_REPOZYTORIUM>
+cd neon-slots
+```
 
-Follow these steps:
+2. **Zainstaluj zależności**:
+```bash
+npm install
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. **Uruchom grę w trybie deweloperskim**:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. **Otwórz grę w przeglądarce**:
+```
+http://localhost:8080
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Budowanie wersji produkcyjnej
 
-**Use GitHub Codespaces**
+```bash
+# Zbuduj aplikację
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Podejrzyj zbudowaną wersję lokalnie
+npm run preview
+```
 
-## What technologies are used for this project?
+## 🎯 Sterowanie
 
-This project is built with:
+- **SPIN** - Kręć bębnami (kosztuje punkty według aktualnej stawki)
+- **Stawka** - Wybierz stawkę: 5, 10, 25, 50, lub 100 punktów
+- **Reset** - Przywróć saldo do 1000 punktów
+- **Dźwięk** - Włącz/wyłącz efekty dźwiękowe
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🛠️ Technologie
 
-## How can I deploy this project?
+- **React 18** - Nowoczesny framework UI
+- **TypeScript** - Typowane JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **Lucide React** - Piękne ikony
+- **Shadcn/ui** - Komponenty UI
+- **Vite** - Szybkie narzędzie budowania
 
-Simply open [Lovable](https://lovable.dev/projects/44f639fb-fdcb-4d95-9b8c-46562d9d07f5) and click on Share -> Publish.
+## 📱 Responsywność
 
-## Can I connect a custom domain to my Lovable project?
+Gra została zaprojektowana by działać perfekcyjnie na:
+- 🖥️ Komputerach stacjonarnych
+- 💻 Laptopach
+- 📱 Telefonach komórkowych
+- 📱 Tabletach
 
-Yes, you can!
+## 🎨 Design
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- **Neonowy styl** z żywymi kolorami
+- **Ciemne tło** z gradientami
+- **Animacje CSS** i efekty przejść
+- **Efekty świetlne** i cienie
+- **Font Orbitron** - futurystyczny wygląd
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🔊 Dźwięki
+
+Gra zawiera dyskretne efekty dźwiękowe:
+- Dźwięk kręcenia bębnów
+- Dźwięk wygranej
+- Możliwość wyłączenia dźwięków
+
+## 🎭 Tryb Demo
+
+Gra działa w trybie demo:
+- Zaczynasz z 1000 punktów
+- Brak prawdziwych pieniędzy
+- Możliwość resetowania salda
+- Bezpieczna zabawa bez ryzyka
+
+## 📈 Prawdopodobieństwa
+
+System wykorzystuje realistyczne prawdopodobieństwa:
+- Rzadsze symbole pojawiają się rzadziej
+- Większe nagrody za rzadsze kombinacje
+- Sprawiedliwy system RNG (Random Number Generator)
+
+## 🏆 Najwyższe wygrane
+
+Przykładowe maksymalne wygrane (przy stawce 100 pkt):
+- 5x 💰 Jackpot = 25,000 punktów!
+- 5x 7️⃣ Siódemka = 10,000 punktów
+- 5x 💎 Diamenty = 5,000 punktów
+
+---
+
+**Miłej zabawy z Neon Slots! 🎰✨**
+
+*Pamiętaj: To tylko gra! Zawsze graj odpowiedzialnie.*
